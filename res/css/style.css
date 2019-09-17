@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#profile-pic {
+    width: 200px;
+    height: 200px;
+}
+
+.tbody > td {
+    border: 1px solid black;
+}
