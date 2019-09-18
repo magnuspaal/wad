@@ -5,8 +5,8 @@ body {
     flex-direction: column;
 }
 t_table{
-    border-collapse: collapse;
     width: 100%;
+    border: 1px black;
 }
 
 
@@ -17,14 +17,13 @@ t_table{
 .thead > th{
     height: 10px;
     border: 1px solid black;
-    padding: 15px;
-    text-align: left;
+    padding: 8px;
   
 }
 
 .tbody > td {
     border: 1px solid black;
-    padding: 15px;
+    padding: 8px;
     text-align: left;
   
 }
