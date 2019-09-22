@@ -1,20 +1,25 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-	margin-bottom: 50px;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  margin: 0;
 }
 
 header {
 	width:100%;
 	display: block;
 	background-color: #0A83A8;
-	padding: 10px;
-	top:0;
+  padding: 10px;
+  position: relative;
 }
 
-t_table{
+.content {
+ width: 400px;
+ margin: 2vw;
+ height: 90vh;
+}
+
+.t_table{
     width: 100%;
     border: 1px black;
 }
@@ -31,9 +36,9 @@ t_table{
 }
 
 .tbody > td {
-    border: 1px solid black;
-    padding: 8px;
-    text-align: left;
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
   
 }
 footer{
