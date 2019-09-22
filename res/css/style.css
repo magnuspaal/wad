@@ -24,11 +24,15 @@ header {
     border: 1px black;
 }
 
-#profile-pic {
-    width: 200px;
-    height: 200px;
+#profile_pic {
+    width: 150px;
+    height: 150px;
+	align: right !important;
+
 }
 .thead > th{
+    background-color: rgba(0, 0, 0, 0.03);
+    margin: 0px;
     height: 10px;
     border: 1px solid black;
     padding: 8px;
@@ -36,6 +40,7 @@ header {
 }
 
 .tbody > td {
+  margin: 0px;
   border: 1px solid black;
   padding: 8px;
   text-align: left;
