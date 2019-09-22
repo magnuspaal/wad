@@ -9,25 +9,25 @@ header {
 	width:100%;
 	display: block;
 	background-color: #0A83A8;
-  padding: 10px;
-  position: relative;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	position: relative;
 }
 
 .content {
- width: 400px;
+ width: 95%;
  margin: 2vw;
  height: 90vh;
 }
 
 .t_table{
-    width: 100%;
+    max-width: 400px;
     border: 1px black;
 }
 
 #profile_pic {
     width: 150px;
     height: 150px;
-	align: right !important;
 
 }
 .thead > th{
@@ -46,9 +46,16 @@ header {
   text-align: left;
   
 }
+
+div + strong {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
+
 footer{
 	width: 100%;
-	bottom:0px;
+	bottom:0;
 	position: fixed;
 }
 ul {
